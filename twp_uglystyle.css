@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=DotGothic16&family=Rubik+Puddles&display=swap');
+
+body {
+    background-color: rgb(255, 0, 128);
+
+    
+  }
+  
+  h1 {
+    color: rgb(177, 207, 54);
+    font-family: "Dancing Script", sans-serif;
+    background-image: linear-gradient(to right, blue, red,yellow,green,indigo,orange, violet); 
+    font-size: 5em;
+    border: 8px solid rgb(0, 0, 0);
+    margin: 50px;
+    border-style:ridge;
+ 
+  }
+  h2 {
+    color: rgb(177, 207, 54);
+    font-family: "Rubik Puddles", serif;
+    background-color: rgb(255, 255, 0);
+    font-size: 2em;
+    border: 8px dotted rgb(197, 162, 117);
+    margin: 1px;
+    padding: 50px;
+ 
+  }
+  p {
+    color: rgb(125, 54, 207);
+    font-family: "Helvetica", sans-serif;
+    background-color: rgb(255, 255, 0);
+    font-size: 2em;
+    border: 8px double rgb(15, 0, 174);
+    margin: 30px;
+    padding: 2px;
+ 
+  }
+  ol {
+    color: rgb(255, 0, 0);
+    font-family: "Helvetica", sans-serif;
+    background-color: rgb(91, 148, 88);
+    font-size: 1em;
+    border: 10px double rgb(251, 255, 0);
+    margin: 30px;
+    padding: 26px;
+ 
+  }
+  li {
+    color: rgb(255, 0, 0);
+    background-color: rgb(103, 114, 238);
+    font-size: 1em;
+    margin: 10px;
+    padding: 2px;
+ 
+  }
+  a {
+    color: rgb(4, 255, 0);
+    background-color: rgb(169, 172, 210);
+    font-size: 7em;
+    margin: 10px;
+    padding: 20px;
+    font-family: "DotGothic16", serif;
+ 
+  }
+  img {
+  
+    background-color: rgb(169, 172, 210);
+    width: 250px;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+ 
+  }
+  strong {
+  
+    background-color: rgb(20, 103, 175);
+    width: 250px;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 65px 15px #281616;
+    font-family: "DotGothic16", serif;
+ 
+  }
+
+  h3 {
+  
+    background-color: rgb(20, 103, 175);
+    width: 250px;
+    font-family: "Rubik Puddles", serif;
+    color: aqua;
+    font-size: 5em;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 65px 15px #281616;
+ 
+  }
+mark {
+    color: red
+    
+}
+
+.floating {
+  position: relative;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+      transform: translateY(0);
+  }
+
+  50% {
+      transform: translateY(-20px);
+  }
+
+  100% {
+      transform: translateY(0);
+  }
+}
+
