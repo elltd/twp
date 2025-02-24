@@ -10,6 +10,7 @@ body {
 #mainbody {
   text-align: center;
   display: block;
+  padding: 65px 0;
 }
 
 h1 {
