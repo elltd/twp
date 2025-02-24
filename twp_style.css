@@ -39,7 +39,7 @@ body {
   
   h1 {
     color: navy;
-    line-height: 5px;
+    line-height: 0.8em;
     font-family: "DM Sans", serif;
     font-size: 3.7em;
   }
@@ -61,7 +61,7 @@ mark {
   display: inline-block;
   font-size: 16px;
   border: 1px;
-  
+  font-family: "DotGothic16", serif;
 }
 
 .button:hover {
@@ -85,10 +85,18 @@ mark {
 
 #b1 {
     text-align: center;
+    
   }
 
   #b2 {
-    text-align: center;
+    text-align: left;
     width: 680px;
     margin: auto;
+    
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:8px;
   }
