@@ -152,11 +152,15 @@ height:3em;
   h3 {
     font-family: "DotGothic16", serif;
     text-align: center;
-    background-color: navy(174, 174, 174); 
     display: inline-block;
     margin:1px;
     font-size: 1.5em;
   }
+
+  #intro {
+    color: black;
+  }
+  
 
   .themes {
     display: inline-block center;
@@ -167,6 +171,7 @@ height:3em;
     max-width: 650px;
     margin: auto;
   }
+
 
   .profile {
     /* flex-basis: 40%;*/
