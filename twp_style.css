@@ -124,6 +124,14 @@ height:3em;
     
   }
 
+  #theorybody {
+    text-align: left;
+    width: 825px;
+    margin: auto;
+    font-size: 1.1em;
+    
+  }
+
   table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -189,6 +197,13 @@ height:3em;
      border: 2px solid black;
      padding: 15px 25px 10px 25px;
    }
+
+   .socials {
+    display:inline-block;
+    margin:auto;
+    align-items:center;
+   }
+
    .description {
     padding:10px;
   
@@ -234,4 +249,8 @@ height:3em;
     text-align: center;
     font-family: "DotGothic16", serif;
     font-size: 1.25em;
+  }
+
+  i {
+    color: rgb(26, 26, 198);
   }
